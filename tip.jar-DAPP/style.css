@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: cyan;
+  padding: 40px;
+  text-align: center;
+  color: green;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+select, input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 250px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: whitesmoke;
+  color: brown;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+#status {
+  margin-top: 20px;
+  color: #e74c3c;
+}
+
+#averageAmount {
+  font-weight: bold;
+  color: slateblue;
+}

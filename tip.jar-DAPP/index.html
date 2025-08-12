@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TIP.JAR-DAPP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>tip a person</h1>
+
+    <label for="tipPerson">select a person to Tip:</label><br><br>
+    <input type="number" id="amount" min="1" placeholder="Enter any amount in ETH" /><br><br>
+    <button onclick="tipPerson()">Submit Tip</button>
+
+    <h3 id="status"></h3>
+    <h3>All Tips: <span id="allTips"></span></h3>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+    <script src="contractABI.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
